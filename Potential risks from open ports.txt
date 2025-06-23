@@ -1,0 +1,20 @@
+Potential Security Risks from Open Ports
+1. Unauthorized Access
+Risk: Hackers can exploit open ports to gain unauthorized access to services or systems.
+Example: An open SSH port (22) with weak credentials can allow attackers to log in remotely.
+
+2. Exploitation of Vulnerabilities
+Risk: If a service running on an open port has known vulnerabilities, attackers can exploit these to execute malicious code or escalate privileges.
+Example: An outdated FTP service (port 21) can be exploited for data theft.
+
+3. Malware Infection
+Risk: Malware may use open ports to communicate with command-and-control servers or spread laterally across networks.
+Example: A worm could exploit SMB (port 445) to infect multiple machines (as seen in WannaCry).
+
+4. Information Disclosure
+Risk: Services running on open ports may leak system or application information.
+Example: A web server on port 80 or 443 may expose server headers or directory listings.
+
+5. Denial of Service (DoS) Attacks
+Risk: Open ports can be targeted by DoS attacks, overwhelming the service and making it unavailable.
+Example: Attackers flooding an open DNS port (53) with requests to crash the DNS server.
